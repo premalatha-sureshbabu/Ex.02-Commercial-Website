@@ -53,393 +53,327 @@ Upload to GitHub Pages for free hosting.
 ## PROGRAM
 ### Index.html
 ```
+<!-- index.html (Home Page) -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home - Procart</title>
+  <title>GlowSkin - Home</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
+    <div class="logo">GlowSkin</div>
     <nav>
-      <ul class="navbar">
+      <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="account.html">Account</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="cart.html">Cart</a></li>
       </ul>
     </nav>
   </header>
 
-  <section id="home" class="section">
-    <h1>Welcome to Procart</h1>
-    <img src="hero.png" alt="Hero Image" class="hero-img">
-    <p>Discover amazing products and services that meet all your needs.</p>
+  <section class="banner">
+    <h1>Radiance in Every Drop</h1>
+    <p>Shop our luxurious range of facial skincare products</p>
   </section>
 
-  <footer>
-    <p>&copy; 2025 Commercial Inc. | Follow us on
-      <a href="#">Facebook</a>, <a href="#">Twitter</a>, <a href="#">Instagram</a>
-    </p>
-  </footer>
-</body>
-</html>
-```
-### Services.html
-```
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Services - Procart</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <nav>
-      <ul class="navbar">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="account.html">Account</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section id="services" class="section">
-    <h2>Our Services</h2>
-    <div class="service-list">
-      <div class="service-item">
-        <h3>E-commerce Storefront</h3>
-        <p>A user-friendly platform offering a wide range of products, including electronics, fashion, home goods, and more, with seamless online shopping and secure checkout options.</p>
+  <section class="featured">
+    <h2>Bestsellers</h2>
+    <div class="products">
+      <div class="product">
+        <img src="serum.png" alt="Serum">
+        <h3>Hydrating Serum</h3>
       </div>
-      <div class="service-item">
-        <h3>Fast & Reliable Delivery</h3>
-        <p>We ensure quick and reliable shipping to your doorstep, with real-time tracking and delivery updates, so you can shop with confidence.</p>
-      </div>
-      <div class="service-item">
-        <h3>Customer Support & Returns</h3>
-        <p>Our dedicated customer support team is available to assist you with any inquiries or issues. We offer hassle-free returns and exchanges to ensure your satisfaction with every purchase.</p>
+      <div class="product">
+        <img src="fox.png" alt="Moisturizer">
+        <h3>Glow Moisturizer</h3>
       </div>
     </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 Commercial Inc. | Follow us on
-      <a href="#">Facebook</a>, <a href="#">Twitter</a>, <a href="#">Instagram</a>
-    </p>
+    <p>&copy; 2025 GlowSkin. All rights reserved.</p>
   </footer>
 </body>
 </html>
+```
+### Login.html
+```
+<!-- login.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - GlowSkin</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">GlowSkin</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="login">
+    <h1>Login</h1>
+    <form action="#" method="post">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit">Login</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2025 GlowSkin. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
 ```
 ### About.html
 ```
+<!-- about.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us - Procart</title>
+  <title>About - GlowSkin</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
+    <div class="logo">GlowSkin</div>
     <nav>
-      <ul class="navbar">
+      <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="account.html">Account</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="cart.html">Cart</a></li>
       </ul>
     </nav>
   </header>
-
-  <section id="about" class="section">
-    <h2>About Us</h2>
-    <p>Welcome to ProCart, your one-stop destination for premium products at unbeatable prices. We are a dynamic e-commerce platform dedicated to providing our customers with a wide range of high-quality goods, from the latest electronics to stylish fashion and home essentials. At ProCart, our mission is simple – to make shopping easy, fast, and enjoyable. We focus on delivering an exceptional user experience with secure payments, fast shipping, and outstanding customer service. Whether you're shopping for yourself or looking for the perfect gift, ProCart is here to help you find exactly what you need. Thank you for choosing us – your satisfaction is our priority!</p>
+  <section class="about">
+    <h1>About Us</h1>
+    <p>GlowSkin is a luxury skincare brand focused on clean, cruelty-free ingredients to bring out your natural radiance. Our mission is to help you glow with confidence using high-quality, ethically sourced products.</p>
+    <img src="ing.jpg" alt="Natural Ingredients">
   </section>
-
   <footer>
-    <p>&copy; 2025 Commercial Inc. | Follow us on
-      <a href="#">Facebook</a>, <a href="#">Twitter</a>, <a href="#">Instagram</a>
-    </p>
+    <p>&copy; 2025 GlowSkin. All rights reserved.</p>
   </footer>
 </body>
 </html>
 ```
-### Contact.html
+### Cart.html
 ```
+
+<!-- cart.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact - Commercial Website</title>
+  <title>Cart - GlowSkin</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
+    <div class="logo">GlowSkin</div>
     <nav>
-      <ul class="navbar">
+      <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="account.html">Account</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="cart.html">Cart</a></li>
       </ul>
     </nav>
   </header>
-
-  <section id="contact" class="section">
-    <h2>Contact Us</h2>
-    <p>Have any questions? Reach out to us through the following channels:</p>
-    <ul>
-      <li>Email: contact@Procart.com</li>
-      <li>Phone: (+91)7654347891</li>
-    </ul>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Commercial Inc. | Follow us on
-      <a href="#">Facebook</a>, <a href="#">Twitter</a>, <a href="#">Instagram</a>
-    </p>
-  </footer>
-</body>
-</html>
-```
-### Account.html
-```
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Account - ProCart</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <nav>
-      <ul class="navbar">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="account.html">Account</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section id="account" class="section">
-    <h2>User Account</h2>
-    <p>Create an account to manage your orders and track your purchases.</p>
-
-    <!-- Account Form Box -->
-    <div class="account-box">
-      <h3>Sign Up</h3>
-      <form action="#" method="POST" id="signUpForm">
-        <div class="form-field">
-          <label for="username">Username</label>
-          <input type="text" id="username" name="username" required placeholder="Enter your username">
-        </div>
-        <div class="form-field">
-          <label for="email">Email Address</label>
-          <input type="email" id="email" name="email" required placeholder="Enter your email">
-        </div>
-        <div class="form-field">
-          <label for="password">Password</label>
-          <input type="password" id="password" name="password" required placeholder="Enter your password">
-        </div>
-        <div class="form-field">
-          <label for="confirm-password">Confirm Password</label>
-          <input type="password" id="confirm-password" name="confirm-password" required placeholder="Confirm your password">
-        </div>
-        <button type="submit" class="sign-up-btn">Sign Up</button>
-      </form>
-
-      <p>Already have an account? <a href="login.html">Log in</a></p>
+  <section class="cart">
+    <h1>Your Cart</h1>
+    <div class="cart-item">
+      <p>Hydrating Serum - $30 <button>Remove</button></p>
     </div>
-
+    <div class="cart-item">
+      <p>Glow Moisturizer - $25 <button>Remove</button></p>
+    </div>
+    <p>Total: $55</p>
+    <button>Proceed to Checkout</button>
   </section>
-
   <footer>
-    <p>&copy; 2025 ProCart. Follow us on 
-      <a href="#">Facebook</a>, <a href="#">Twitter</a>, <a href="#">Instagram</a>
-    </p>
+    <p>&copy; 2025 GlowSkin. All rights reserved.</p>
   </footer>
-
-  <script>
-    // Basic validation for password match
-    document.getElementById('signUpForm').addEventListener('submit', function(event) {
-      const password = document.getElementById('password').value;
-      const confirmPassword = document.getElementById('confirm-password').value;
-
-      if (password !== confirmPassword) {
-        alert("Passwords do not match!");
-        event.preventDefault(); // Prevent form submission
-      }
-    });
-  </script>
 </body>
 </html>
 ```
-Style.css
+### Style.css:
 ```
-/* Global Styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', sans-serif;
-}
 
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-color: #f8f8f8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fffafc;
+  color: #333;
 }
 
 header {
-    background-color: #333;
-    padding: 10px 0;
+  background-color: #fce4ec;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.navbar {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #e91e63;
 }
 
-.navbar a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s;
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
 }
 
-.navbar a:hover {
-    color: #f0a500;
+nav a {
+  text-decoration: none;
+  color: #e91e63;
+  font-weight: 500;
 }
 
-.section {
-    flex: 1;
-    padding: 40px;
-    text-align: center;
-    background-color: #f4f4f4;
-    border-bottom: 1px solid #ddd;
+nav a:hover {
+  color: #ad1457;
 }
 
-.hero-img {
-    width: 100%;
-    height: auto;
-    max-width: 1200px;
-    margin-top: 20px;
+.banner {
+  background-image: url('ban.png');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 20px;
+  color: white;
 }
 
-.service-list {
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
+.banner h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
 }
 
-.service-item {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    width: 30%;
+.banner p {
+  font-size: 1.2rem;
+}
+
+.featured {
+  padding: 60px 40px;
+  text-align: center;
+  background-color: #fff0f5;
+}
+
+.featured h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.products {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.product {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 220px;
+}
+
+.product img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.about, .login, .cart {
+  padding: 60px 40px;
+  max-width: 700px;
+  margin: auto;
+  background-color: #fff0f5;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.about img {
+  max-width: 100%;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #e91e63;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #d81b60;
+}
+
+.cart-item {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
 footer {
-    background-color: #222;
-    color: white;
-    text-align: center;
-    padding: 15px;
+  text-align: center;
+  padding: 20px;
+  background-color: #fce4ec;
+  color: #e91e63;
+  margin-top: 40px;
 }
 
-footer a {
-    color: #f0a500;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
-/* Account Page Specific Styles */
-#account .account-box {
-    background-color: white;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 350px;
-    margin: 40px auto;
-    border: 2px solid #007bff; /* Border for the box */
-}
-
-#account .account-box h3 {
-    margin-bottom: 20px;
-}
-
-#account .account-box .form-field {
-    margin-bottom: 20px;
-}
-
-#account .account-box .form-field label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-#account .account-box .form-field input {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-}
-
-#account .account-box .sign-up-btn {
-    width: 100%;
-    padding: 12px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 16px;
-}
-
-#account .account-box .sign-up-btn:hover {
-    background-color: #0056b3;
-}
-
-#account .account-box p {
-    margin-top: 20px;
-}
-
-#account .account-box p a {
-    text-decoration: none;
-    color: #007bff;
-}
-
-#account .account-box p a:hover {
-    text-decoration: underline;
-}
 ```
 ## OUTPUT
-![Screenshot (37)](https://github.com/user-attachments/assets/2f7ea0c7-43de-4e92-82de-bdab1743d5a9)
-![Screenshot (38)](https://github.com/user-attachments/assets/ef09f969-73a3-4f63-baee-36144ac20f4c)
-![Screenshot (39)](https://github.com/user-attachments/assets/de246ab8-f83b-47e2-8a27-7c49a40e21d9)
-![Screenshot (40)](https://github.com/user-attachments/assets/4ad4298d-3568-49dc-a987-5e82fb3ae2af)
-![Screenshot (41)](https://github.com/user-attachments/assets/890a0b48-2726-49e7-8adb-6aa2345fce1f)
+![Screenshot (44)](https://github.com/user-attachments/assets/046407f6-527c-44aa-8879-78ad3082f3cb)
+![Screenshot (45)](https://github.com/user-attachments/assets/d14952c0-7f26-436d-9e6a-763b9210d0bd)
+![Screenshot (46)](https://github.com/user-attachments/assets/30d11278-6c72-4bdb-bb65-1d45e5ea80d4)
+![Screenshot (47)](https://github.com/user-attachments/assets/ec16890c-4fd1-4885-ac40-d02e226906da)
+
 
 
 ## RESULT
